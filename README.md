@@ -10,7 +10,7 @@ A DC motor driven through an L293D with a quadrature encoder read by hardware in
 
 **Objective 3 — Develop mechanical control systems by implementing transducers, actuators, feedback, vision and sensing systems, and other mechanical systems into robotic platforms.**
 
-This is the feedback half of motor control: a transducer (encoder) measuring what the actuator is actually doing, independent of what it was commanded to do.
+**How it meets the objective:** It implements the feedback half of motor control — a quadrature encoder (transducer) measures what the motor (actuator) is actually doing, computing live RPM independent of the commanded speed.
 
 ## How It Works
 
